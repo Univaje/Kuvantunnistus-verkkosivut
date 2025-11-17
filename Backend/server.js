@@ -30,7 +30,7 @@ server.use((error, req, res, next) => {
 
 mongoose
 	.connect(
-		"mongodb+srv://Oppenheimer:ManhattanUser345@cluster0.q9b5wja.mongodb.net/AbombDB?retryWrites=true&w=majority"
+		"Insert connection string here"
 	)
 	.then(() => {
 		server.listen(5000);
@@ -38,3 +38,4 @@ mongoose
 	.catch((err) => {
 		console.log(err);
 	});
+
